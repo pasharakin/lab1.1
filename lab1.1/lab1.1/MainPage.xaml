@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab1._1.MainPage">
+
+    <StackLayout>
+        <Label Text="Введите кординату x1"/>
+        <Entry x:Name="zn1"/>
+        <Label Text="Введите кординату y1"/>
+        <Entry x:Name="zn2"/>
+        <Label Text="Введите кординату x2"/>
+        <Entry x:Name="zn3"/>
+        <Label Text="Введите кординату y2"/>
+        <Entry x:Name="zn4"/>
+        <Label Text="Введите кординату x3"/>
+        <Entry x:Name="zn5"/>
+        <Label Text="Введите кординату y3"/>
+        <Entry x:Name="zn6"/>
+        <Button Text="Рассчитать" Clicked="Button_Clicked"></Button>
+        <Label Text="Периметр="/>
+        <Entry x:Name="rezP" IsReadOnly="True"/>
+        <Label Text="Площадь="/>
+        <Entry x:Name="rezS" IsReadOnly="True"/>
+    </StackLayout>
+
+</ContentPage>
